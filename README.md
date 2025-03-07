@@ -1,1 +1,2 @@
 # coca-cola
+![](./img-coca)
