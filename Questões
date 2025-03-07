@@ -1,0 +1,137 @@
+1.O que é um repositório no Git e qual a sua importância?
+   R:Um repositório no Git é um repositório remoto que serve para armazenar toda a trajetoria do projeto permitindo que
+     você acesse todos os seus commits e branches que foram alteradas ao longo do projeto.
+
+2.Qual a função do Git Bash?
+    R:A principal função do Git Bash é fornecer um ambiente de linha de comando onde você pode usar o Git em um sistema Windows
+      de forma similar ao que se faria em um ambiente Unix/Linux. 
+      Ele facilita o uso do Git, oferece ferramentas para automação e desenvolvimento, e ajuda a simular um terminal de Unix no Windows. 
+      É uma ferramenta essencial para desenvolvedores que preferem o uso de linha de comando para o controle de versões
+      e gerenciamento de repositórios Git.
+
+3.O que faz o comando git add e qual a diferença entre git add <arquivo> e git add .?
+    R:O comando git add adiciona as alterações feita no repositório local.
+      O comando {git add <arquivo>} serve para adicionar uma alteração especifica, já o {git add .} serve para adicionar todas
+      as alterações feitas no projeto.
+
+4.Por que utilizamos o ponto (.) no comando git add .?
+    R:Para adicionar todos arquivos novos e/ou modificados do diretório onde estamos fazendo o projeto.
+
+5.Explique o comando git commit e por que é importante criar uma mensagem descritiva.
+    R:O comando {git commit} serve para "tirar uma print" das novas alterações do projeto.
+      É importante criar uma mensagem descritiva para todo commit para ficar organizado ou caso alguma coisa der errado no projeto
+      as mensagens ajudam a localizar o cada momento. 
+
+6.Qual a função do comando git push?
+    R:Enviar uma copia do repositório local para o remoto.  
+        
+7.Qual a importância de criar commits frequentes durante o desenvolvimento de um projeto?
+    R:Criar commits frequentes durante o desenvolvimento de um projeto é uma prática altamente recomendada, pois oferece uma série de vantagens
+      importantes no processo de desenvolvimento de software como :
+        Melhor organização e rastreabilidade do código.
+        Facilidade para reverter alterações e isolar problemas.
+        Colaboração mais eficiente em equipes de desenvolvimento.
+        Backup constante e segurança contra perda de trabalho.
+        Facilidade no debugging e nos testes.
+        Fluxo de trabalho ágil, com processos de CI/CD mais eficazes.
+        Mensagens de commit como documentação natural das mudanças.
+
+8.Explique a função das tags HTML e como elas estruturam uma página.
+    R:Toda página HTML usa essas três tags: 
+    A tag <html> é o elemento raiz que define todo o documento HTML. 
+    A tag <head> contém metadados sobre o título e a codificação de caracteres da página. 
+    A tag <body> inclui todo o conteúdo que aparece na página. 
+
+9.O que são atributos em uma tag HTML e qual a sua função?
+    R:Atributos em HTML são informações adicionais que controlam o comportamento de um elemento HTML. 
+    Eles são colocados dentro da tag de abertura de um elemento. 
+
+    Função 
+    Identificar melhor um elemento
+    Informar qual arquivo aquela tag deve utilizar
+    Indicar o tipo de um campo de texto
+    Influenciar como o elemento se comporta ou é exibido
+
+10.O que é o Emmet e como ele facilita o desenvolvimento de páginas HTML?    
+   R:Emmet é uma ferramenta poderosa para desenvolvedores web que visa aumentar a produtividade no desenvolvimento de
+     HTML, CSS e outras linguagens relacionadas. 
+     Ele é essencialmente um expansor de código que permite escrever abreviações curtas e convertê-las em trechos de código completos
+     e funcionais, economizando muito tempo durante o desenvolvimento.
+
+   Como o Emmet Funciona:
+   O Emmet funciona por meio de abreviações ou atalhos que você digita em seu editor de código.
+   Essas abreviações são expandidas em código HTML (ou CSS) completo, com uma simples ação, como pressionar a tecla Tab. 
+   A principal ideia por trás do Emmet é reduzir o número de digitações e aumentar a velocidade no desenvolvimento, 
+   especialmente em tarefas repetitivas.
+   
+   Exemplos de Como o Emmet Facilita o Desenvolvimento de HTML:
+   Estrutura Básica de HTML:
+   
+   Ao invés de digitar a estrutura básica de uma página HTML, você pode simplesmente escrever:
+   
+   ! 
+   E pressionar Tab. O Emmet irá expandir isso para:
+   <!DOCTYPE html>
+   <html lang="en">
+   <head>
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>Document</title>
+   </head>
+   <body>
+       
+   </body>
+   </html>
+   Isso economiza bastante tempo, já que não é necessário digitar toda a estrutura do HTML.
+
+11.O que é o box-sizing no CSS e por que usamos ele no reset inicial?
+    R:A propriedade box-sizing do CSS define como o tamanho de um elemento é calculado, incluindo preenchimento e bordas. 
+      Ela é usada no reset inicial para normalizar o estilo padrão dos elementos HTML em todos os navegadores. 
+
+12.Por que é importante utilizar tags semânticas no HTML?
+    R:O HTML semântico é importante para criar páginas fáceis de entender, navegar e atualizar. 
+    As tags descrevem com precisão o conteúdo e, assim, os desenvolvedores criam um código limpo e acessível para humanos e máquinas.
+
+13.O que são media queries no CSS e qual a sua função?
+    R:Media queries (consultas de mídia) são blocos de código CSS que permitem adaptar a aparência e o comportamento de um 
+    site a diferentes dispositivos. 
+    Função
+    Ajustar a visualização de um site a diferentes dispositivos sem alterar o conteúdo 
+    Criar um design responsivo que se adapta a diferentes larguras de tela 
+    Aplicar diferentes estilos a um grupo de dispositivos usando apenas uma style sheet 
+
+14.Qual a função do GitHub Pages?
+    R:O GitHub Pages é um serviço de hospedagem de sites estáticos, que permite publicar sites diretamente do GitHub. 
+      O GitHub Pages usa arquivos HTML, CSS e JavaScript de um repositório no GitHub. 
+
+15.O que é o Flexbox no CSS e para que ele é utilizado?
+    R:O Flexbox é uma ferramenta do CSS que organiza elementos em um contêiner, permitindo criar layouts responsivos e flexíveis. 
+        Para que serve 
+        Criar grades, carrosséis, cards e outros elementos
+        Posicionar, alinhar e distribuir elementos em um contêiner
+        Ajustar a disposição e o espaçamento dos elementos
+        Garantir uma experiência consistente em diferentes dispositivos
+
+16.Qual a diferença entre justify-content e align-items em um container Flexbox?
+    R:Em um container Flexbox, justify-content controla o alinhamento dos itens no eixo principal, 
+      enquanto align-items controla o alinhamento no eixo transversal. 
+
+17.Como o flex-grow funciona e qual o seu propósito no layout Flexbox?
+    R:O flex-grow é usado para distribuir o espaço disponível dentro de um contêiner flexível de forma proporcional entre os itens. 
+      O valor do flex-grow define a proporção do espaço que cada item ocupará, tornando o layout flexível e ajustável conforme 
+      o tamanho do contêiner.
+
+        flex-grow: 0 (padrão) significa que o item não crescerá.
+        flex-grow: 1 significa que o item crescerá de forma proporcional ao espaço disponível.
+        Valores maiores que 1 indicam que o item deve crescer mais do que os outros itens com valores menores.
+
+18.Explique a diferença entre flex-direction: column; e flex-direction: row;.
+    R:A diferença entre flex-direction: row; e flex-direction: column; está na direção em que os itens são dispostos dentro do contêiner flexível:
+
+        flex-direction: row; (padrão): Os itens são dispostos horizontalmente (da esquerda para a direita).
+        flex-direction: column;: Os itens são dispostos verticalmente (de cima para baixo).
+        Resumo:
+        
+        row alinha os itens ao longo do eixo horizontal (linha).
+        column alinha os itens ao longo do eixo vertical (coluna).
+   
